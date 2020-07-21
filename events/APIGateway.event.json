@@ -1,0 +1,62 @@
+{
+  "resource": "/hello",
+  "path": "/hello",
+  "httpMethod": "GET",
+  "headers": {
+    "Accept": "*/*",
+    "CloudFront-Forwarded-Proto": "https",
+    "CloudFront-Is-Desktop-Viewer": "true",
+    "CloudFront-Is-Mobile-Viewer": "false",
+    "CloudFront-Is-SmartTV-Viewer": "false",
+    "CloudFront-Is-Tablet-Viewer": "false",
+    "CloudFront-Viewer-Country": "IN",
+    "Host": "3b3kgykat4.execute-api.ap-south-1.amazonaws.com",
+    "User-Agent": "curl/7.55.1",
+    "Via": "1.1 6aea5f58dfb9c5bb748b9c8b8a2853cf.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Id": "IWVszyyUYZZfb4tuqiPwgS5ULvCYVpP7YfI1NuRHfYFzn0e-bss2Ew==",
+    "X-Amzn-Trace-Id": "Root=1-5f11c0b8-0757bfa89e0d7b32cfc26cb2",
+    "X-Forwarded-For": "43.225.73.71, 70.132.23.158",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https"
+  },
+  "queryStringParameters": {
+    "name": "roshan"
+  },
+  "multiValueQueryStringParameters": {
+    "name": ["roshan"]
+  },
+  "pathParameters": null,
+  "stageVariables": null,
+  "requestContext": {
+    "resourceId": "y00hng",
+    "resourcePath": "/hello",
+    "httpMethod": "GET",
+    "extendedRequestId": "P0sM6EZrBcwFVKQ=",
+    "requestTime": "17/Jul/2020:15:16:08 +0000",
+    "path": "/dev/hello",
+    "accountId": "444502268408",
+    "protocol": "HTTP/1.1",
+    "stage": "dev",
+    "domainPrefix": "3b3kgykat4",
+    "requestTimeEpoch": 1594998968976,
+    "requestId": "1666a11d-19f1-4f7a-b255-3fad96e9a08b",
+    "identity": {
+      "cognitoIdentityPoolId": null,
+      "accountId": null,
+      "cognitoIdentityId": null,
+      "caller": null,
+      "sourceIp": "43.225.73.71",
+      "principalOrgId": null,
+      "accessKey": null,
+      "cognitoAuthenticationType": null,
+      "cognitoAuthenticationProvider": null,
+      "userArn": null,
+      "userAgent": "curl/7.55.1",
+      "user": null
+    },
+    "domainName": "3b3kgykat4.execute-api.ap-south-1.amazonaws.com",
+    "apiId": "3b3kgykat4"
+  },
+  "body": null,
+  "isBase64Encoded": false
+}
